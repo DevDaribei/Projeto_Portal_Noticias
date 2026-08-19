@@ -2,6 +2,26 @@ section header{
     border-top: 1px solid var(--stroke-color);
     padding-block: 12px 24px;
     font:var(--text-span);
+
+    header a {
+        justify-self: end;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        
+
+        span {
+            background-image: url(styles/assets/icons/ArrowRight.svg);
+            width: 12px;
+            height: 12px;
+            
+        }
+
+        &:hover span{
+           background-image: url(../assets/icons/ArrowRight-hover.svg);
+           
+        }
+    }
     
 }
 
@@ -54,21 +74,7 @@ section header{
 
 #weekly{
 
-    header a {
-        justify-self: end;
-        align-items: center;
-        gap: 8px;
-
-        span{
-            background-image: url(../assets/icons/ArrowRight.svg);
-            
-        }
-
-        &hover span{
-           background-image: url(../assets/icons/ArrowRight-hover.svg);
-           
-        }
-    }
+    
 
     &>div{
         grid-template-columns: repeat(4, 292px);
