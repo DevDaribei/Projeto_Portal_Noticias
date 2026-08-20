@@ -82,6 +82,20 @@ section header a:hover span {
     img{
         height:160px;
     }
+
+    figure {
+        position: relative;
+        
+         .content-tag{
+            position: absolute;
+            top: 8px;
+         }
+
+        p{
+            margin-top: 8px;
+            font-weight: 700;
+        }
+    }
 }
 
 
